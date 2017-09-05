@@ -1,0 +1,36 @@
+/* globales*/
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+/* Registrarse */
+.container{
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-color: RGB(0, 0, 220);
+  font-family: verdana;
+  font-size: 300%;
+  font-style: italic;
+  text-align: center;
+  color: white;
+}
+.facebook {
+  background-color: RGB(0, 0, 128);
+  text-align: center;
+  color: white;
+}
+
+@media(min-width: 768px){
+  
+}
