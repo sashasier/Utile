@@ -28,9 +28,8 @@ li {
   height: 80px;
 
 }
-.botones {
-  text-align: center;
-}
+
+
 .barra{
   text-align: right;
   float: right;
@@ -59,20 +58,4 @@ li a {
   .container{
     max-width: 1200px;
   }
-}
-
-.footer {
-    background: rgba(207, 230, 242, 1);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-.txt_footer {
-  color: #fff;
-}
-.icon_footer {
-  height: 80px;
 }
