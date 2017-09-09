@@ -1,9 +1,12 @@
-/* globales*/
+/*------------------------GLOBALES------------------------*/
 * {
   box-sizing: border-box;
 }
 body{
   margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #4DA193;
 }
 ul {
   padding: 0;
@@ -12,29 +15,94 @@ li {
   list-style-type: none;
 }
 
-/* Registrarse */
-.container{
-  max-width: 768px;
-  margin: 0 auto;
+/*------------Responsive Resolucion Smartphone-----------*/
 }
-.titulo {
-  background-color: RGB(0, 0, 100);
-  font-family: verdana;
-  font-style: italic;
-  text-align: left;
-  color: white;
-  width: 100%;
-  height: 80px;
+@media(max-width: 320px){
+  }
 
+/*------------Responsive Resolucion Tablet---------------*/
+@media(min-width: 768px){
+  }
+
+/*
+
+/*---------------------BANNER - MENU---------------------*/
+.banner {
+  padding: 0;
+  font-family: verdana;
+  font-style: serif;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  float:right;
+  position:relative;
+  left:-50%;
+  text-align:center;
+}
+.banner ul {
+  position:relative;
+  left:50%;
+}
+.banner li {
+  float: left;
+  position: relative;
 }
 .barra{
   text-align: right;
   float: right;
 }
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+/*       Sory! ya se que por ahi te movi algo, pero si vamos a usar tags generales como ul o body, etc, intentemos     ponerles class o id para que solo afecte el de su pagina, si no, de esta manera, estan afectando a uls y bodys de las otras paginas (y supongo que todos vamos moviendo los elemntos de distintas formas como vamos pudiendo jaja)
+ul {
+  margin-left: 28%;
+  margin-right: 28%;
+}
+*/
+
+/*------------------PREGUNTAS FRECUENTES------------------*/
+.preguntasfrecuentes {
+  background-image: url(../imagenes/background/puente.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+.preguntas {
+  padding-top: 150px;
+  padding-left: 30%;
+  color: blue;
+}
+
+/*---------------------ESPECIALIDADES---------------------*/
+.especialidades {
+  background-image: url(../imagenes/background/copas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/*----------------------REGISTRARSE----------------------*/
+.registrarse {
+  background-image: url(../imagenes/background/trago.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+/* Perdon denuevo! lo que te explique mas arriba.
 li{
   float: right;
   padding: 10px;
 }
+*/
+
 li a {
   color: white;
 }
@@ -43,29 +111,22 @@ li a {
   text-align: center;
   color: white;
 }
-@media(min-width: 768px){
-  .container{
-    max-width: 992px;
-  }
+
+/*------------------------FOOTER------------------------*/
+
+.footer {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 15%;
 }
-@media(min-width: 992px){
-  .container{
-    max-width: 1200px;
-  }
+.icon_footer {
+  height: 80px;
 }
-/*-------------------------------------------------------FOOTER-------------------------------------------------------*/
-    .footer {
-        background: rgba(207, 230, 242, 1);
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-        }
-    .icon_footer {
-        height: 80px;
-        }
-    .txt_footer {
-        color: #fff;
-        }
+.txt_footer {
+  color: white;
+}
