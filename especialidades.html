@@ -5,31 +5,51 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+<link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<title>Especialidades</title>
   </head>
-
-  <style>
-	h1 {
-	  background-color: blue;
-	  font-family: verdana;
-	  font-size: 300%;
-	}
-	p  {
-	  color: red;
-	  font-family: courier;
-	  font-size: 160%;
-	}
-
-  </style>
-
-  <body>
+  <body class="especialidades">
 	<div class="container">
 
-	  <h1>Utile</h1>
+    <div class="banner">
+      <img src="" alt="" class="logo">
+           <ul class="nav nav-pills">
+              <li class="nav-item">
+               <a class="nav-link active" href="especialidades.html"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link disabled" href="login.html">Login</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link disabled" href="registrarse.html">Registrarse</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link disabled" href="preguntasfrecuentes.html">FAQ</a>
+             </li>
+           </ul>
+     </div>
+    <div class="contenidocentro">
+    <form class="col-md-12" action="index.html" method="post">
+      <div class="form-group col-md-4">
+        <label for="nombre">Direccion</label>
+        <input type="text" class="form-control" id="direccion" placeholder="ingrese la direccion" value="" required>
+      </div>
+      <form class="col-md-12" action="index.html" method="post">
+        <div class="form-group col-md-4">
+          <label for="nombre">Horario</label>
+          <input type="text" class="form-control" id="horario" placeholder="ingrese el horario del evento" value="" required>
+        </div>
+      <form class="col-md-12" action="index.html" method="post">
+        <div class="form-group col-md-4">
+            <label for="nombre">Cantidad personas</label>
+            <input type="text" class="form-control" id="personas" placeholder="ingrese la cantidad de personas" value="" required>
+        </div>
+        <button type="button" name="enviar">enviar</button>
+<br>
+<br>
 
 	  <div class="form-group">
 		<select name="tipo">
@@ -98,8 +118,19 @@
 		  <span class="sr-only">Next</span>
 		</a>
 	  </div>
+  </div>
+</div>
 
-	</div>
+  <footer class="footer">
+    <div class="social">
+      <a href="https://www.facebook.com/utile" >
+        <img src="imagenes/footer/facebook.png" class="icon_footer" alt=""></a>
+      <a href="mailto:utile@utile.com" >
+        <img src="imagenes/footer/twitter.png" class="icon_footer" alt=""></a>
+      <!-- <a href="tel:" class="icon-phone"></a> -->
+    </div>
+    <p class="txt_footer">&copy; UTILE 2017 - Todos los derechos reservados</p>
+  </footer>
 
 	<script>$(document).ready(function(){$("#myCarousel").carousel("pause");});</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
