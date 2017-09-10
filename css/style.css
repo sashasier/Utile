@@ -14,7 +14,11 @@ ul {
 li {
   list-style-type: none;
 }
-
+.contenidocentro {
+  width: max-content;
+  padding-top: 10%;
+  padding-left: ;
+}
 /*------------Responsive Resolucion Smartphone-----------*/
 }
 @media(max-width: 320px){
@@ -66,33 +70,35 @@ ul {
 /*------------------PREGUNTAS FRECUENTES------------------*/
 .preguntasfrecuentes {
   background-image: url(../imagenes/background/puente.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 }
 .preguntas {
-  padding-top: 150px;
-  padding-left: 30%;
   color: blue;
+  margin-left: 20vw;
 }
 
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
   background-image: url(../imagenes/background/copas.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 }
 
 /*----------------------REGISTRARSE----------------------*/
 .registrarse {
   background-image: url(../imagenes/background/trago.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+#contenidocentroregistrarse {         /* para centrar el formulario */
+  
 }
 
 
