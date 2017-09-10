@@ -7,6 +7,11 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #4DA193;
+
+  font-family: verdana;
+  font-style: serif;
+  text-align: left;
+  font-size: 20px;
 }
 ul {
   padding: 0;
@@ -33,10 +38,6 @@ li {
 /*---------------------BANNER - MENU---------------------*/
 .banner {
   padding: 0;
-  font-family: verdana;
-  font-style: serif;
-  text-align: left;
-  font-size: 20px;
   color: white;
   float:right;
   position:relative;
@@ -76,8 +77,10 @@ ul {
   min-height: 100vh;
 }
 .preguntas {
-  color: blue;
+  color: white;
   margin-left: 20vw;
+  background: rgba(0, 0, 128, 0.5);
+  width: 1200px;
 }
 
 /*---------------------ESPECIALIDADES---------------------*/
@@ -98,7 +101,7 @@ ul {
   min-height: 100vh;
 }
 #contenidocentroregistrarse {         /* para centrar el formulario */
-  
+
 }
 
 
