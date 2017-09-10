@@ -115,12 +115,9 @@ li{
 li a {
   color: white;
 }
-.facebook {
-  background-color: RGB(0, 0, 128);
-  text-align: center;
+.introducir {
   color: white;
 }
-
 /*------------------------FOOTER------------------------*/
 
 .footer {
