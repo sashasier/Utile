@@ -85,11 +85,14 @@ ul {
 
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
-  background-image: url(../imagenes/background/copas.jpg);
+  background-color: rgba(0,0,0,0.9);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+}
+.letras{
+  color: white;
 }
 
 /*----------------------REGISTRARSE----------------------*/
