@@ -7,7 +7,6 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #4DA193;
-
   font-family: verdana;
   font-style: serif;
   text-align: left;
@@ -20,9 +19,9 @@ li {
   list-style-type: none;
 }
 .contenidocentro {
-  width: max-content;
+  width: 100%;
+  height: 100%;
   padding-top: 10%;
-  padding-left: ;
 }
 /*------------Responsive Resolucion Smartphone-----------*/
 }
@@ -75,15 +74,22 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+  height: 100%;
 }
 .preguntas {
   color: white;
   margin-left: 20vw;
   background: rgba(0, 0, 128, 0.5);
-  width: 1200px;
 }
-.contenidocentro {
-  padding: 200px;
+.contenidocentropreguntas {
+    width: 75%;
+    padding-top: 25vh;
+    padding-left: 25%;
+}
+#accordion {
+  min-width: 5vw;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /*---------------------ESPECIALIDADES---------------------*/
@@ -105,11 +111,10 @@ ul {
 }
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
-  background-image: url(../imagenes/background/login.jpeg);
+  background-color: black;
   background-size:auto;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 .txtlogin{
   color: white;
@@ -136,12 +141,10 @@ li a {
 .footer {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
   text-align: center;
-  position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
-  height: 15%;
+  position: absolute;
 }
 .icon_footer {
   height: 80px;
