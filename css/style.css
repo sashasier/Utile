@@ -88,11 +88,14 @@ ul {
 
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
-  background-image: url(../imagenes/background/copas.jpg);
+  background-color: rgba(0,0,0,0.9);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+}
+.letras{
+  color: white;
 }
 
 /*----------------------REGISTRARSE----------------------*/
@@ -116,6 +119,10 @@ ul {
 }
 .formulario{
   padding-top: 60px;
+}
+.login {
+  text-align: center;
+  color: white;
 }
 
 /* Perdon denuevo! lo que te explique mas arriba.
