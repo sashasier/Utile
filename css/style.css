@@ -70,7 +70,7 @@ ul {
 
 /*------------------PREGUNTAS FRECUENTES------------------*/
 .preguntasfrecuentes {
-  background-image: url(../imagenes/background/puente.jpg);
+  background-image: url();
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -81,6 +81,9 @@ ul {
   margin-left: 20vw;
   background: rgba(0, 0, 128, 0.5);
   width: 1200px;
+}
+.contenidocentro {
+  padding: 20px;
 }
 
 /*---------------------ESPECIALIDADES---------------------*/
@@ -103,10 +106,10 @@ ul {
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
   background-image: url(../imagenes/background/login.jpeg);
-  background-size: cover;
+  background-size:auto;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 100vh;
+
 }
 .txtlogin{
   color: white;
