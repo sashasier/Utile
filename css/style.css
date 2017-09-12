@@ -94,11 +94,17 @@ ul {
 
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
-  background-image: white;
+  background-color: rgba(0,0,0,0.9);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+}
+.letras{
+  color: white;
+}
+h4 {
+  color: white;
 }
 
 /*----------------------REGISTRARSE----------------------*/
@@ -109,18 +115,23 @@ ul {
   background-position: center;
   min-height: 100vh;
 }
+.tituloreg {
+  text-align: center;;
+  color: white
+}
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
-  background-color: black;
-  background-size:auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: rgba(0,0,0,0.9);
 }
 .txtlogin{
   color: white;
 }
 .formulario{
   padding-top: 60px;
+}
+.login {
+  text-align: center;
+  color: white;
 }
 
 /* Perdon denuevo! lo que te explique mas arriba.
@@ -144,7 +155,8 @@ li a {
   text-align: center;
   bottom: 0;
   width: 100%;
-  position: absolute;
+  height: 90px;
+  position: relative;
 }
 .icon_footer {
   height: 80px;
