@@ -94,11 +94,17 @@ ul {
 
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
-  background-image: white;
+  background-color: rgba(0,0,0,0.9);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
+}
+.letras{
+  color: white;
+}
+h4 {
+  color: white;
 }
 
 /*----------------------REGISTRARSE----------------------*/
