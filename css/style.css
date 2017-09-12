@@ -122,9 +122,6 @@ h4 {
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
   background-color: rgba(0,0,0,0.9);
-  background-size:auto;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .txtlogin{
   color: white;
