@@ -100,10 +100,10 @@ ul {
   background-position: center;
   min-height: 100vh;
 }
-#contenidocentroregistrarse {         /* para centrar el formulario */
 
+.formulario{
+  padding-top: 60px;
 }
-
 
 /* Perdon denuevo! lo que te explique mas arriba.
 li{
