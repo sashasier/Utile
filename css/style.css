@@ -117,6 +117,10 @@ ul {
 .formulario{
   padding-top: 60px;
 }
+.login {
+  text-align: center;
+  color: white;
+}
 
 /* Perdon denuevo! lo que te explique mas arriba.
 li{
