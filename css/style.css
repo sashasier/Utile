@@ -100,7 +100,17 @@ ul {
   background-position: center;
   min-height: 100vh;
 }
-
+/*-------------------------LOGIN-------------------------*/
+.loginbody {
+  background-image: url(../imagenes/background/login.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+.txtlogin{
+  color: white;
+}
 .formulario{
   padding-top: 60px;
 }
