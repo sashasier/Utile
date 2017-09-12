@@ -70,7 +70,7 @@ ul {
 
 /*------------------PREGUNTAS FRECUENTES------------------*/
 .preguntasfrecuentes {
-  background-image: url();
+  background-image: url(../imagenes/background/puente.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -83,19 +83,16 @@ ul {
   width: 1200px;
 }
 .contenidocentro {
-  padding: 20px;
+  padding: 200px;
 }
 
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
-  background-color: rgba(0,0,0,0.9);
+  background-image: white;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
-}
-.letras{
-  color: white;
 }
 
 /*----------------------REGISTRARSE----------------------*/
@@ -119,10 +116,6 @@ ul {
 }
 .formulario{
   padding-top: 60px;
-}
-.login {
-  text-align: center;
-  color: white;
 }
 
 /* Perdon denuevo! lo que te explique mas arriba.
