@@ -152,13 +152,7 @@ h4 {
 
 /*----------------------REGISTRARSE----------------------*/
 .registrarse {
-<<<<<<< HEAD
   background-color: white;
-=======
-  background-image: url(../imagenes/background/trago.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   min-height: 100vh;
   text-align: center;
   color: white;
