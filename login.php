@@ -18,16 +18,16 @@
     <img src="" alt="" class="logo">
          <ul class="nav nav-pills">
            <li class="nav-item">
-             <a class="nav-link active" href="especialidades.html"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
+             <a class="nav-link active" href="especialidades.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
            </li>
             <li class="nav-item">
-             <a class="nav-link active" href="especialidades.html">Home</a>
+             <a class="nav-link active" href="especialidades.php">Home</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link disabled" href="registrarse.html">Registrarse</a>
+             <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link disabled" href="preguntasfrecuentes.html">FAQ</a>
+             <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
            </li>
          </ul>
    </div>
@@ -62,13 +62,14 @@
                  </div>
                </div>
 
-                          <div class="form-group login-group-checkbox">
-                              <input type="checkbox" id="lg_remember" name="lg_remember">
-                            <label for="lg_remember">Recordar password</label>
-                          </div>
+
 
                <div class="form-group ">
                  <a href="" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Login</a>
+               </div>
+
+               <div class="form-group login-group-checkbox">
+                   <input type="checkbox" id="lg_remember" name="lg_remember"><p class="registrotxt">Recordar password</p>
                </div>
 
              </form>
