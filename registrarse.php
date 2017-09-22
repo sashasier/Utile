@@ -80,7 +80,7 @@
       </div>
 
       <div class="form-group">
-        <div class="col-md-2 col-md-offset-2">
+        <div class="col-md-2 col-md-offset-2 ">
           <button type="button" name="facebook" class="btn btn-primary">Registrarse con facebook</button>
         </div>
       </div>

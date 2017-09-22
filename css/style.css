@@ -125,6 +125,7 @@ h4 {
   font-family: verdana;
   font-style: serif;
 }
+
 .tituloreg {
   margin-top: 100px;
   text-align: center;
@@ -258,7 +259,7 @@ span.input-group-addon i {
 	font-size: 11px;
 	text-align: center;
  }
- 
+
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
   background-color: rgba(0,0,0,0.9);
