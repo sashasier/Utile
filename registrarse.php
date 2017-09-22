@@ -31,6 +31,61 @@
              </ul>
        </div>
 
+<<<<<<< HEAD
+=======
+
+  <h1 class="tituloreg">registrarse</h1>
+
+    <div class="formulario">
+      <form class="form-horizontal" action="index.html" method="post">
+        <div class="form-group">
+          <label class="control-label col-md-2 introducir" for="nombre">Nombre y Apellido</label>
+            <div class="col-md-8">
+              <input type="text" class="form-control" id="nombre" placeholder="ingrese su nombre y apellido" value="" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-md-2 introducir" for="email">E-mail</label>
+          <div class="col-md-8">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese su email"  value="" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-md-2 introducir" for="password">Contraseña</label>
+            <div class="col-md-8">
+                <input type="password" class="form-control" name="password" id="contraseña" placeholder="contraseña"  value="" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+          <label class="control-label col-md-2 introducir" for="password">Validar contraseña</label>
+            <div class="col-md-8">
+                <input type="password" class="form-control" name="password" id="contraseña" placeholder="password"  value="" required>
+            </div>
+        </div>
+
+      <div class="form-group">
+        <label class="control-label col-md-2 introducir" for="edad">Edad</label>
+          <div class="col-md-8">
+            <input type="number" class="form-control" id="edad" value="" required>
+          </div>
+      </div>
+
+      <br>
+      <div class="form-group">
+        <div class="col-md-2 col-md-offset-2">
+          <button type="button" name="Enviar" class="btn btn-primart">Enviar</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-2 col-md-offset-2">
+          <button type="button" name="facebook" class="btn btn-primary">Registrarse con facebook</button>
+        </div>
+      </div>
+>>>>>>> d065b41a90d5fddcbf0e57fcd911108f336a5c38
 
 
   <div class="registrobox">
