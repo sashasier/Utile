@@ -1,4 +1,11 @@
+<?php
+session_start();
 
+$nombre = $_SESSION['inputsValues']['nombre'] ?? '';
+$email = $_SESSION['inputsValues']['email'] ?? '';
+$password = $_SESSION['inputsValues']['password'] ?? '';
+
+?>
 
 <!DOCTYPE html>
 <html>
