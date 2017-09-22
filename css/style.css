@@ -38,6 +38,7 @@ li a {
 .banner {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   position:relative;
   background-color: #0B2161;
   width: 900px;
@@ -50,6 +51,8 @@ li a {
   position:relative;
   display: inline-block;
 =======
+=======
+>>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
   color: white;
 float: right;
 position: relative;
@@ -58,6 +61,7 @@ background-color: rgba(255, 255, 255, 0.5);
 width: 100vw;
 padding: 0;
 left: 20vw;
+<<<<<<< HEAD
 }
 .banner ul {
   position:relative;
@@ -73,11 +77,16 @@ background-color: rgba(255, 255, 255, 0.5);
 width: 100vw;
 padding: 0;
 left: 20vw;
+=======
+>>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 }
 .banner ul {
   position:relative;
   padding: 1vh;
 left: 44vw;
+<<<<<<< HEAD
+>>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
+=======
 >>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 }
 .banner li {
@@ -156,6 +165,9 @@ h4 {
   font-family: verdana;
   font-style: serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
+=======
 >>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 =======
 >>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
@@ -167,12 +179,15 @@ h4 {
   font-family: verdana;
   font-style: serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 #playground-container {
     height: 500px;
     overflow: hidden !important;
     -webkit-overflow-scrolling: touch;
 =======
+=======
+>>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 }
 #playground-container {
     height: 500px;
@@ -181,6 +196,7 @@ h4 {
 }
 .main{
  	margin:50px 15px;
+<<<<<<< HEAD
 }
 h1.title {
 	font-size: 50px;
@@ -202,6 +218,29 @@ input::-webkit-input-placeholder {
     font-size: 11px;
     padding-top: 3px;
 }
+=======
+}
+h1.title {
+	font-size: 50px;
+	font-family: 'Passion One', cursive;
+	font-weight: 400;
+}
+hr{
+	width: 10%;
+	color: #fff;
+}
+.form-group{
+	margin-bottom: 15px;
+}
+label{
+	margin-bottom: 15px;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+>>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 .main-login{
  	background-color: #fff;
     /* shadows and rounded borders */
