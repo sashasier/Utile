@@ -152,24 +152,19 @@ h4 {
 
 /*----------------------REGISTRARSE----------------------*/
 .registrarse {
+
   background-color: white;
   min-height: 100vh;
   text-align: center;
-  color: white;
+  color: black;
   font-family: verdana;
   font-style: serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
-=======
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
-=======
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 }
+
 .tituloreg {
   margin-top: 100px;
   text-align: center;
-  color: white;
+  color: black;
   font-family: verdana;
   font-style: serif;
 <<<<<<< HEAD
