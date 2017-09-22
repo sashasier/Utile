@@ -75,7 +75,7 @@ a {
 
 /*------------------PREGUNTAS FRECUENTES------------------*/
 .preguntasfrecuentes {
-  background-image: url(../imagenes/background/puente.jpg);
+  background-image: url(../imagenes/background/.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -103,6 +103,7 @@ a {
 }
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
+  background-image: url(../imagenes/background/.jpg);
   background-color: rgba(0,0,0,0.9);
   background-size: cover;
   background-repeat: no-repeat;
@@ -118,6 +119,7 @@ h4 {
 
 /*----------------------REGISTRARSE----------------------*/
 .registrarse {
+  background-image: url(../imagenes/background/.jpeg);
   background-color: white;
   min-height: 100vh;
   text-align: center;
@@ -262,21 +264,20 @@ span.input-group-addon i {
 
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
-  background-color: rgba(0,0,0,0.9);
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
-}
+  background-color: white;
+  }
 .main{
  	margin:50px 15px;
-}
+  }
 h1.title {
 	font-size: 50px;
 	font-family: 'Passion One', cursive;
 	font-weight: 400;
-}
+  }
 hr{
 	width: 10%;
 	color: #fff;
-}
+  }
 <<<<<<< HEAD
 li a {
   color: white;

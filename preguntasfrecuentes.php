@@ -21,10 +21,10 @@
         <img src="" alt="" class="logo">
              <ul class="nav nav-pills">
                 <li class="nav-item">
-                 <a class="nav-link active" href="especialidades.html">Home</a>
+                 <a class="nav-link active" href="especialidades.php">Home</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link disabled" href="login.html">Login</a>
+                 <a class="nav-link disabled" href="login.php">Login</a>
                </li>
                <li class="nav-item">
                  <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
