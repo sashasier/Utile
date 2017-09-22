@@ -32,7 +32,7 @@
              </ul>
        </div>
 
-       
+
   <h1 class="tituloreg">registrarse</h1>
 
     <div class="formulario">
