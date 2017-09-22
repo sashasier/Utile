@@ -70,13 +70,6 @@ li a {
   height: 30px;
 }
 
-/*       Sory! ya se que por ahi te movi algo, pero si vamos a usar tags generales como ul o body, etc, intentemos     ponerles class o id para que solo afecte el de su pagina, si no, de esta manera, estan afectando a uls y bodys de las otras paginas (y supongo que todos vamos moviendo los elemntos de distintas formas como vamos pudiendo jaja)
-ul {
-  margin-left: 28%;
-  margin-right: 28%;
-}
-*/
-
 /*------------------PREGUNTAS FRECUENTES------------------*/
 .preguntasfrecuentes {
   background-image: url(../imagenes/background/puente.jpg);
@@ -101,7 +94,10 @@ ul {
   text-align: center;
   margin-bottom: 20px;
 }
+.panel-primary>.panel-heading {
 
+  background:#009edf;
+}
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
   background-color: rgba(0,0,0,0.9);
@@ -165,6 +161,7 @@ hr{
 }
 .form-group{
 	margin-bottom: 15px;
+  text-align: center;
 }
 label{
 	margin-bottom: 15px;
@@ -243,7 +240,7 @@ padding: 8px 12px !important;
  	margin: 0 auto;
  	max-width: 400px;
   padding: 10px 40px;
-	background-color:  rgba(255, 255, 255, 0.5);
+	background:#009edf;
   color: #FFF;
   text-shadow: none;
 	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.31);
@@ -261,7 +258,6 @@ span.input-group-addon i {
 	font-size: 11px;
 	text-align: center;
  }
-
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
   background-color: rgba(0,0,0,0.9);
@@ -279,6 +275,10 @@ hr{
 	width: 10%;
 	color: #fff;
 }
+<<<<<<< HEAD
+li a {
+  color: white;
+=======
 .form-group{
 	margin-bottom: 15px;
 }
@@ -358,6 +358,7 @@ span.input-group-addon i {
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
   background-color: white;
+>>>>>>> d255a45fb40eb2b8a171352ceff22aea75445b11
 }
 
 .login {
