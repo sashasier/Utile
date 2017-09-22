@@ -1,4 +1,4 @@
-/*------------------------GLOBALES------------------------*/
+  /*------------------------GLOBALES------------------------*/
 * {
   box-sizing: border-box;
 }
@@ -39,9 +39,6 @@ a {
 
 /*---------------------BANNER - MENU---------------------*/
 .banner {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   position:relative;
   background-color: #0B2161;
   width: 900px;
@@ -103,8 +100,7 @@ a {
 }
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
-  background-image: url(../imagenes/background/.jpg);
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgb(255, 255, 255);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -127,23 +123,17 @@ h4 {
   font-family: verdana;
   font-style: serif;
 }
-
 .tituloreg {
   margin-top: 100px;
   text-align: center;
   color: black;
   font-family: verdana;
   font-style: serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 #playground-container {
     height: 500px;
     overflow: hidden !important;
     -webkit-overflow-scrolling: touch;
-=======
-=======
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 }
 #playground-container {
     height: 500px;
@@ -152,7 +142,6 @@ h4 {
 }
 .main{
  	margin:50px 15px;
-<<<<<<< HEAD
 }
 h1.title {
 	font-size: 50px;
@@ -361,7 +350,7 @@ span.input-group-addon i {
 /*-------------------------LOGIN-------------------------*/
 .loginbody {
   background-color: white;
->>>>>>> d255a45fb40eb2b8a171352ceff22aea75445b11
+  margin-top: 20vh;
 }
 
 .login {
@@ -369,6 +358,7 @@ span.input-group-addon i {
   color: black;
   margin-bottom: 30px;
 }
+
 
 /*------------------------FOOTER------------------------*/
 

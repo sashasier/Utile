@@ -4,6 +4,7 @@ session_start();
 $nombre = $_SESSION['inputsValues']['nombre'] ?? '';
 $email = $_SESSION['inputsValues']['email'] ?? '';
 $password = $_SESSION['inputsValues']['password'] ?? '';
+$username = $_SESSION['inputsValues']['username'] ?? '';
 
 ?>
 
@@ -21,6 +22,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
   </head>
 
   <body class="registrarse">
+
     <div class="container">
 
       <div class="banner">
@@ -42,17 +44,30 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
 
   <div class="registrobox">
 
+
   <div class="container">
+
   			<div class="row main">
   				<div class="main-login main-center">
-  					<form class="" method="post" action="#">
+            <?php if (!empty($_SESSION['errores'])): ?>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-danger">
+                            <?php foreach ($_SESSION['errores'] as $value): ?>
+                                <p><?php echo $value; ?></p>
+                            <?php endforeach ?>
+                        </div>
+                    </div>
+                </div>
+            <?php endif ?>
+  					<form class="" action="php/registro.controller.php" enctype="multipart/form-data" method="post" novalidate>
 
   						<div class="form-group">
   							<label for="name" class="cols-sm-2 control-label">Nombre y apellido</label>
   							<div class="cols-sm-10">
   								<div class="input-group">
   									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-  									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+  									<input type="text" class="form-control" name="nombre" id="nombre"  placeholder="Enter your Name" value="<?php echo $nombre ?>"/><span class="help-block"></span>
   								</div>
   							</div>
   						</div>
@@ -62,7 +77,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
   							<div class="cols-sm-10">
   								<div class="input-group">
   									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
-  									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+  									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email" value="<?php echo $email ?>"/><span class="help-block"></span>
   								</div>
   							</div>
   						</div>
@@ -72,7 +87,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
   							<div class="cols-sm-10">
   								<div class="input-group">
   									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-  									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+  									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username" value="<?php echo $username ?>"/><span class="help-block"></span>
   								</div>
   							</div>
   						</div>
@@ -82,7 +97,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
   							<div class="cols-sm-10">
   								<div class="input-group">
   									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-  									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+  									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/><span class="help-block"></span>
   								</div>
   							</div>
   						</div>
@@ -92,13 +107,23 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
   							<div class="cols-sm-10">
   								<div class="input-group">
   									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-  									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+  									<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/><span class="help-block"></span>
   								</div>
   							</div>
   						</div>
 
+              <div class="form-group" class="cols-sm-2 control-label">
+                <div class="cols-sm-10">
+                  <div class="input-group">
+                    <label for="avatar">Avatar: </label><br/>
+                    <input type="file" class="form-control" name="avatar" id="avatar" value="" />
+                    <span class="help-block"></span>
+                  </div>
+                </div>
+              </div>
+
   						<div class="form-group ">
-  							<a href="" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Register</a>
+                <button class="btn btn-primary btn-lg btn-block login-button" type="submit" class="btn btn-default">Enviar</button>
   						</div>
               <p class="registrotxt"><a href="login.php">Ya tenes una cuenta? Click aqui</a></p>
 
