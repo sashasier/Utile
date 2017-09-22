@@ -50,45 +50,12 @@ li a {
 .banner ul {
   position:relative;
   display: inline-block;
-=======
-=======
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
-  color: white;
-float: right;
-position: relative;
-text-align: center;
-background-color: rgba(255, 255, 255, 0.5);
-width: 100vw;
-padding: 0;
-left: 20vw;
-<<<<<<< HEAD
 }
 .banner ul {
   position:relative;
   padding: 1vh;
-left: 44vw;
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
-=======
-  color: white;
-float: right;
-position: relative;
-text-align: center;
-background-color: rgba(255, 255, 255, 0.5);
-width: 100vw;
-padding: 0;
-left: 20vw;
-=======
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 }
-.banner ul {
-  position:relative;
-  padding: 1vh;
-left: 44vw;
-<<<<<<< HEAD
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
-=======
->>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
-}
+
 .banner li {
   float: left;
   position: relative;
