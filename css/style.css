@@ -23,6 +23,9 @@ li a {
   height: 100%;
   padding-top: 10%;
 }
+a {
+    color: #fff;
+}
 /*------------Responsive Resolucion Smartphone-----------*/
 }
 @media(max-width: 320px){
@@ -115,7 +118,6 @@ h4 {
 
 /*----------------------REGISTRARSE----------------------*/
 .registrarse {
-
   background-color: white;
   min-height: 100vh;
   text-align: center;
@@ -123,7 +125,6 @@ h4 {
   font-family: verdana;
   font-style: serif;
 }
-
 .tituloreg {
   margin-top: 100px;
   text-align: center;
@@ -171,7 +172,6 @@ input::-webkit-input-placeholder {
     font-size: 11px;
     padding-top: 3px;
 }
-=======
 }
 h1.title {
 	font-size: 50px;
