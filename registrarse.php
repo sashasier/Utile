@@ -27,20 +27,23 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
 
       <div class="banner">
         <img src="" alt="" class="logo">
-             <ul class="nav nav-pills">
-                <li class="nav-item">
-                 <a class="nav-link active" href="especialidades.php">Home</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link disabled" href="login.php">Login</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
-               </li>
-             </ul>
-       </div>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" href="especialidades.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="login.php">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="home.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
+          </li>
+        </ul>
+      </div>
 
-
+<h1>Registrarse</h1>
 
   <div class="registrobox">
 
