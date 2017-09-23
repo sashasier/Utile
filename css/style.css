@@ -114,17 +114,8 @@ h4 {
 }
 
 /*----------------------REGISTRARSE----------------------*/
-.registrarse {
-  background-image: url(../imagenes/background/.jpeg);
-  background-color: white;
-  min-height: 100vh;
-  text-align: center;
-  color: black;
-  font-family: verdana;
-  font-style: serif;
-}
 .tituloreg {
-  margin-top: 100px;
+  margin-top: 20px;
   text-align: center;
   color: black;
   font-family: verdana;
@@ -356,7 +347,7 @@ span.input-group-addon i {
 .login {
   text-align: center;
   color: black;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 
