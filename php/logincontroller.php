@@ -25,7 +25,6 @@ if ($errores) {
 	exit;
 }
 
-$username[
-	'username' => $username,
-	'password' => password_hash($password, PASSWORD_DEFAULT),
-]
+if (getUserByUsername($username, '../json/usuarios.json')) {
+	;
+}
