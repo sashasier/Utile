@@ -21,7 +21,7 @@
           <a class="nav-link active" href="home.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="login.php">Login</a>
+          <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
