@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+$username = $_SESSION['inputsValues']['username'] ?? '';
+$password = $_SESSION['inputsValues']['password'] ?? '';
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +65,7 @@
                  <div class="cols-sm-10">
                    <div class="input-group">
                      <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                     <input type="text" class="form-control" name="username" placeholder="Enter your Username" value="<?php echo $username ?>"/><span class="help-block"></span>
+                     <input type="text" class="form-control" name="username" placeholder="Enter your Username" value="<?php echo $username ?>" /><span class="help-block"></span>
                    </div>
                  </div>
                </div>
