@@ -29,7 +29,7 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
         <img src="" alt="" class="logo">
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link active" href="especialidades.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
+            <a class="nav-link active" href="home.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="login.php">Login</a>
