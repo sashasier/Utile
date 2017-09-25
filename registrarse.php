@@ -63,6 +63,7 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
                     </div>
                 </div>
             <?php endif ?>
+
   					<form class="" action="php/registro.controller.php" enctype="multipart/form-data" method="post" novalidate>
 
   						<div class="form-group">

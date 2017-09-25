@@ -8,8 +8,8 @@ define('DB_PATH', '../json/usuarios.json');
 $errores = [];
 
 //Validación
-$usuario = trim($_POST['nombre']);
-if (empty($usuario)) {
+$username = trim($_POST['nombre']);
+if (empty($username)) {
 	$errores['nombre'] = 'El nombre de usuario es obligatorio';
 }
 
@@ -24,3 +24,8 @@ if ($errores) {
 	header('Location: ../registro.php');
 	exit;
 }
+
+$username[
+	'username' => $username,
+	'password' => password_hash($password, PASSWORD_DEFAULT),
+]

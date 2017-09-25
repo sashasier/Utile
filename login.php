@@ -21,7 +21,7 @@
           <a class="nav-link active" href="home.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
+          <a class="nav-link disabled" href="login.php">Login</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
@@ -37,9 +37,19 @@
          <div class="row main">
              <h1 class="tituloreg">Login</h1>
            <div class="main-login main-center">
-             <form class="" method="post" action="#">
+                  <?php if (!empty($_SESSION['errores'])): ?>
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="alert alert-danger">
+                                  <?php foreach ($_SESSION['errores'] as $value): ?>
+                                      <p><?php echo $value; ?></p>
+                                  <?php endforeach ?>
+                              </div>
+                          </div>
+                      </div>
+                  <?php endif ?>
 
-
+             <form class="" method="post" action="php/logincontroller.php">
 
 
                <div class="form-group">
@@ -47,7 +57,7 @@
                  <div class="cols-sm-10">
                    <div class="input-group">
                      <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                     <input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+                     <input type="text" class="form-control" name="username" placeholder="Enter your Username" value="<?php echo $username ?>"/><span class="help-block"></span>
                    </div>
                  </div>
                </div>
