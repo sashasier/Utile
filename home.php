@@ -6,6 +6,7 @@
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style01.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -27,25 +28,31 @@
 
   <body class="especialidades">
   	<div class="container">
-
       <div class="banner">
-        <img src="" alt="" class="logo">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link active" href="home.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="login.php">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
-          </li>
-        </ul>
+        <div>
+          <img src="" alt="" class="logo">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="login.php">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+    			<a class="not-login">Usted no se ha identificado</a>
+    		</div>
       </div>
+
       <div class="contenidocentro">
+        <h2>Ingrese los datos para reservar su lugar</h2>
         <form class="col-md-12" action="index.html" method="post">
           <div class="form-group col-md-4">
             <label for="nombre">Direccion</label>
@@ -63,37 +70,27 @@
           </div>
         <button type="button" name="enviar">enviar</button>
         <br>
+      </div>
+
+      <div class="col-md-4">
+        <ul id="posicionarse">
+  		    <li><a class="posicionarse">Posicionarse en categoria de producto deseado</a>
+  		      <ul class="sub1">
+  			      <li><a href="#b">Barras de bebida</a></li>
+  			      <li><a href="#c">Catering</a></li>
+  	          <li><a href="#d">Djs</a></li>
+  			    </ul>
+  		    </li>
+  		  </ul>
+  		  <br>
         <br>
-
-<!--
-	  <div class="col-md-4">
-      <ul>
-        <li><a href="#">Posicionarse</a></li>
-        <li><a href="#">Barras de bebida</a></li>
-        <li><a href="#">Catering</a></li>
-        <li><a href="#">Djs</a></li>
-      </ul>
-      <br>
+  	  </div>
 	  </div>
--->
-
-    <div class="col-md-4">
-  		<select name="tipo">
-  		  <option value="Adicionales">Posicionarse</option>
-  		  <option value="Barra">barra de bebidas</option>
-  		  <option value="Catering">Catering</option>
-  		  <option value="Dj's">con música</option>
-
-  		  <button type="button" name="Aceptar" class="form-group col-md-6">Acepta</button>
-  		</select>
-  		<br>
-	  </div>
-
 
 	  <section id="barras">
 	    <div class="row">
 	      <div class="large-12 columns">
-    			<h2 style="text-align: center">Barras</h2>
+    			<h2 style="text-align: center" id="b">Barras</h2>
           <h4 style="text-align: right">Ver todo</h4>
 	        <div class="owl-carousel owl-theme">
 	          <div class="item">
@@ -162,7 +159,7 @@
     <section id="catering">
       <div class="row">
         <div class="large-12 columns">
-        	<h2 style="text-align: center">Catering</h2>
+        	<h2 style="text-align: center" id="c">Catering</h2>
         	<h4 style="text-align: right">Ver todo</h4>
           <div class="owl-carousel owl-theme">
             <div class="item">
@@ -220,7 +217,7 @@
         <section id="dj">
           <div class="row">
             <div class="large-12 columns">
-            	<h2 style="text-align: center">Dj's</h2>
+            	<h2 style="text-align: center" id="d">Dj's</h2>
             	<h4 style="text-align: right">Ver todo</h4>
               <div class="owl-carousel owl-theme">
                 <div class="item">
