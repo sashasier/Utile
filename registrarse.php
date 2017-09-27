@@ -63,7 +63,7 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
                     </div>
                 </div>
             <?php endif ?>
-            <?php unset($_SESSION['errores']); //resetea la posicion de errores ?> 
+            <?php unset($_SESSION['errores']); //resetea la posicion de errores ?>
 
   					<form class="" action="php/registro.controller.php" enctype="multipart/form-data" method="post" novalidate>
 
@@ -138,16 +138,15 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
   		</div>
 
     </div>
-<footer class="footer">
-  <div class="social">
-    <a href="https://www.facebook.com/utile" >
-      <img src="imagenes/footer/facebook.png" class="icon_footer" alt=""></a>
-    <a href="https://www.twitter.com/utile" >
-      <img src="imagenes/footer/twitter.png" class="icon_footer" alt=""></a>
-  </div>
-  <p class="txt_footer">&copy; UTILE 2017 - Todos los derechos reservados</p>
-</footer>
-
+    <footer class="footer" style="background-color: midnightblue; text-align: center; color: white; width: 900px;  margin: auto;margin-top: 20px; position: relative; bottom: -23vh">
+      <div class="social">
+        <a href="https://www.facebook.com/utile" >
+          <img src="imagenes/footer/facebook.png" class="icon_footer" style="height: 100px" alt=""></a>
+        <a href="https://www.twitter.com/utile" >
+          <img src="imagenes/footer/twitter.png" class="icon_footer" style="height: 100px" alt=""></a>
+      </div>
+      <p class="txt_footer">&copy; UTILE 2017 - Todos los derechos reservados</p>
+    </footer>
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
