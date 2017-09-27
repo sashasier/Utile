@@ -35,7 +35,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
           <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="home.php">Home</a>
+          <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
         </li>
       </ul>
     </div>
@@ -43,8 +43,9 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
 
    <div class="container">
          <div class="row main">
-             <h1 class="tituloreg">Login</h1>
            <div class="main-login main-center">
+                 <h1 class="tituloreg">Login</h1>
+                 <hr>
                   <?php if (!empty($_SESSION['errores'])): ?>
                       <div class="row">
                           <div class="col-md-12">
@@ -97,7 +98,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
        </div>
 
 
-       <footer class="footer" style="background-color: midnightblue; text-align: center; color: white; width: 900px;  margin: auto;margin-top: 20px; position: relative; bottom: -23vh">
+       <footer class="footer" style="background-color: midnightblue; text-align: center; color: white; width: 900px;  margin: auto;margin-top: 20px; position: relative; bottom: -15vh">
          <div class="social">
            <a href="https://www.facebook.com/utile" >
              <img src="imagenes/footer/facebook.png" class="icon_footer" style="height: 100px" alt=""></a>
