@@ -8,14 +8,14 @@ define('DB_PATH', '../json/usuarios.json');
 $errores = [];
 
 //Validación
-$username = trim($_POST['nombre']);
+$username = trim($_POST['username']);
 if (empty($username)) {
-	$errores['nombre'] = 'El nombre de usuario es obligatorio';
+	$errores['username'] = 'El nombre de usuario es obligatorio';
 }
 
 $password = trim($_POST['password']);
 if (empty($password)) {
-	$errores['password'] = 'El password es obligatorio';
+	$errores['password'] = 'La contraseña es obligatoria';
 }
 
 if ($errores) {

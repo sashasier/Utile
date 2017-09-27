@@ -56,7 +56,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
                           </div>
                       </div>
                   <?php endif ?>
-                  <?php unset($_SESSION['errores']); //resetea la posicion de errores ?> 
+                  <?php unset($_SESSION['errores']); //resetea la posicion de errores ?>
 
              <form class="" method="post" action="php/logincontroller.php">
 
@@ -66,7 +66,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
                  <div class="cols-sm-10">
                    <div class="input-group">
                      <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                     <input type="text" class="form-control" name="username" placeholder="Enter your Username" value="<?php echo $username ?>" /><span class="help-block"></span>
+                     <input type="text" class="form-control" name="username" placeholder="Enter your Username" id='username' value="<?php echo $username ?>" /><span class="help-block"></span>
                    </div>
                  </div>
                </div>
