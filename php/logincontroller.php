@@ -1,7 +1,5 @@
 <?php
 
-//require '../login.php';
-
 define('DB_PATH', '../json/usuarios.json');
 include 'helpers.php';
 $errores = [];
@@ -25,7 +23,8 @@ if ($_POST) {
 
 		if ($usuario !== false) {
 			if (password_verify($password, $usuario['password'])) {
-					$errores['login'] = true;
+					$_SESSION['login'] = true;
+					header("location: home.php");
 			}else {
 					$errores['password'] = 'El password no coinicide';
 			}
@@ -35,7 +34,5 @@ if ($_POST) {
 
 		if ($errores) {
 			$_SESSION['errores'] = $errores;
-			// header('Location: login.php');
-			// exit;
 		}
 }

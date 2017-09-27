@@ -67,7 +67,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
                  <div class="cols-sm-10">
                    <div class="input-group">
                      <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                     <input type="text" class="form-control" name="username" placeholder="Enter your Username" id='username' value="<?php echo $username;?>" /><span class="help-block"></span>
+                     <input type="text" class="form-control" name="username" placeholder="Enter your Username" id='username' value="<?php echo $username;?>"/><span class="help-block"></span>
                    </div>
                  </div>
                </div>
@@ -77,7 +77,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
                  <div class="cols-sm-10">
                    <div class="input-group">
                      <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
-                     <input type="password" class="form-control" value="<?php echo $password;?>" name="password" id="password"  placeholder="Enter your Password"/>
+                     <input type="password" class="form-control" value="" name="password" id="password"  placeholder="Enter your Password"/>
                    </div>
                  </div>
                </div>
@@ -85,7 +85,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
 
 
                <div class="form-group ">
-                 <button type="submit" name="button" class="btn btn-primary btn-lg btn-block login-button">Loguin</button>
+                 <button type="submit" name="button" class="btn btn-primary btn-lg btn-block login-button">Login</button>
                </div>
 
                <div class="form-group login-group-checkbox">
