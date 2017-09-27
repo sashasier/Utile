@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+require_once 'php/logincontroller.php';
+
 $username = $_SESSION['inputsValues']['username'] ?? '';
 $password = $_SESSION['inputsValues']['password'] ?? '';
 ?>
@@ -58,9 +60,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
                   <?php endif ?>
                   <?php unset($_SESSION['errores']); //resetea la posicion de errores ?>
 
-             <form class="" method="post" action="php/logincontroller.php">
-
-
+             <form class="" method="POST" action="login.php">
                <div class="form-group">
                  <label for="username" class="cols-sm-2 control-label">Username</label>
                  <div class="cols-sm-10">
@@ -68,6 +68,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
                      <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
                      <input type="text" class="form-control" name="username" placeholder="Enter your Username" id='username' value="<?php echo $username ?>" /><span class="help-block"></span>
                    </div>
+                   <?php echo $errores['usuario'] ?>
                  </div>
                </div>
 
@@ -84,7 +85,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
 
 
                <div class="form-group ">
-                 <a href="" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Login</a>
+                 <button type="submit" name="button" class="btn btn-primary btn-lg btn-block login-button">Loguin</button>
                </div>
 
                <div class="form-group login-group-checkbox">
