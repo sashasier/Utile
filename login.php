@@ -56,6 +56,7 @@ $password = $_SESSION['inputsValues']['password'] ?? '';
                           </div>
                       </div>
                   <?php endif ?>
+                  <?php unset($_SESSION['errores']); //resetea la posicion de errores ?> 
 
              <form class="" method="post" action="php/logincontroller.php">
 

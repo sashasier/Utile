@@ -63,6 +63,7 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
                     </div>
                 </div>
             <?php endif ?>
+            <?php unset($_SESSION['errores']); //resetea la posicion de errores ?> 
 
   					<form class="" action="php/registro.controller.php" enctype="multipart/form-data" method="post" novalidate>
 

@@ -21,10 +21,6 @@ if (empty($password)) {
 if ($errores) {
 	$_SESSION['errores'] = $errores;
 	$_SESSION['inputsValues'] = $_POST;
-	header('Location: ../registro.php');
+	header('Location: ../login.php');
 	exit;
-}
-
-if (getUserByUsername($username, '../json/usuarios.json')) {
-	;
 }
