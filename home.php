@@ -276,16 +276,15 @@
         </section>
 
 
-        <footer class="footer">
+        <footer class="footer" style="background-color: midnightblue; text-align: center; color: white; width: 900px;  margin: auto;margin-top: 20px; position: relative; bottom: -23vh">
           <div class="social">
             <a href="https://www.facebook.com/utile" >
-              <img src="imagenes/footer/facebook.png" class="icon_footer" alt=""></a>
+              <img src="imagenes/footer/facebook.png" class="icon_footer" style="height: 100px" alt=""></a>
             <a href="https://www.twitter.com/utile" >
-              <img src="imagenes/footer/twitter.png" class="icon_footer" alt=""></a>
+              <img src="imagenes/footer/twitter.png" class="icon_footer" style="height: 100px" alt=""></a>
           </div>
           <p class="txt_footer">&copy; UTILE 2017 - Todos los derechos reservados</p>
         </footer>
-
 	<script>$(document).ready(function(){$("#myCarousel").carousel("pause");});</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>

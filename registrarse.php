@@ -35,7 +35,7 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
             <a class="nav-link disabled" href="login.php">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="home.php">Home</a>
+            <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
@@ -43,15 +43,16 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
         </ul>
       </div>
 
-<h1>Registrarse</h1>
+
 
   <div class="registrobox">
-
-
-  <div class="container">
+      <div class="container">
 
   			<div class="row main">
   				<div class="main-login main-center">
+
+              <h1 class="tituloreg">Registrarse</h1>
+              <hr>
             <?php if (!empty($_SESSION['errores'])): ?>
                 <div class="row">
                     <div class="col-md-12">
@@ -63,7 +64,7 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
                     </div>
                 </div>
             <?php endif ?>
-            <?php unset($_SESSION['errores']); //resetea la posicion de errores ?> 
+            <?php unset($_SESSION['errores']); //resetea la posicion de errores ?>
 
   					<form class="" action="php/registro.controller.php" enctype="multipart/form-data" method="post" novalidate>
 
@@ -138,16 +139,15 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
   		</div>
 
     </div>
-<footer class="footer">
-  <div class="social">
-    <a href="https://www.facebook.com/utile" >
-      <img src="imagenes/footer/facebook.png" class="icon_footer" alt=""></a>
-    <a href="https://www.twitter.com/utile" >
-      <img src="imagenes/footer/twitter.png" class="icon_footer" alt=""></a>
-  </div>
-  <p class="txt_footer">&copy; UTILE 2017 - Todos los derechos reservados</p>
-</footer>
-
+    <footer class="footer" style="background-color: midnightblue; text-align: center; color: white; width: 900px;  margin: auto;margin-top: 20px; position: relative; bottom: -2vh">
+      <div class="social">
+        <a href="https://www.facebook.com/utile" >
+          <img src="imagenes/footer/facebook.png" class="icon_footer" style="height: 100px" alt=""></a>
+        <a href="https://www.twitter.com/utile" >
+          <img src="imagenes/footer/twitter.png" class="icon_footer" style="height: 100px" alt=""></a>
+      </div>
+      <p class="txt_footer">&copy; UTILE 2017 - Todos los derechos reservados</p>
+    </footer>
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
