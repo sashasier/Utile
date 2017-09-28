@@ -5,6 +5,7 @@ require_once 'php/logincontroller.php';
 
 $username = $_SESSION['inputsValues']['username'] ?? '';
 $password = $_SESSION['inputsValues']['password'] ?? '';
+$remember = $_SESSION['imputsValues']['lg_remember'] ??'';
 ?>
 
 

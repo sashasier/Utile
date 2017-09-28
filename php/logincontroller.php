@@ -17,13 +17,12 @@ if ($_POST) {
 		$errores['password'] = 'La contraseña es obligatoria';
 	}
 
-
-
 	$usuario = getUserByUsername($username, 'json/usuarios.json');
 
 		if ($usuario !== false) {
 			if (password_verify($password, $usuario['password'])) {
 					$_SESSION['login'] = true;
+					include 'cookie_username.php';
 					header("location: home.php");
 			}else {
 					$errores['password'] = 'El password no coinicide';

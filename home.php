@@ -47,7 +47,9 @@
           </ul>
         </div>
         <div>
-    			<a class="not-login">Usted no se ha identificado</a>
+				<?php include 'php/cookie_lectura.php'; ?>
+    			<a class="not-login"><?php echo $wellcome ?></a>
+<!--    			<a class="not-login">Usted no se ha identificado</a>	-->
     		</div>
       </div>
 
@@ -78,8 +80,8 @@
   		      <ul class="sub1">
   			      <li><a href="#b">Barras de bebida</a></li>
   			      <li><a href="#c">Catering</a></li>
-  	          <li><a href="#d">Djs</a></li>
-  			    </ul>
+  	          	  <li><a href="#d">Djs</a></li>
+  			  </ul>
   		    </li>
   		  </ul>
   		  <br>
