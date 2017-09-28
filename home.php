@@ -26,7 +26,7 @@
 
   </head>
 
-  <body class="especialidades">
+  <body style="background-color: #4DA193">
   	<div class="container">
       <div class="banner">
         <div>

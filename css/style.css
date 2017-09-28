@@ -40,12 +40,11 @@ a {
 /*---------------------BANNER - MENU---------------------*/
 .banner {
   position:relative;
-  background-color: #0B2161;
+  background-color: midnightblue;
   width: 900px;
-  height: 100px;
+  height: 120px;
   text-align: center;
   margin: auto;
-  margin-top: 20px;
 }
 .banner ul {
   position:relative;
@@ -100,7 +99,6 @@ a {
 }
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
-  background-color: rgb(255, 255, 255);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -360,7 +358,7 @@ span.input-group-addon i {
 
 .footer {
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: midnightblue;
   text-align: center;
   bottom: 0 ;
   width: 100%;

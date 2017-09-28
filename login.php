@@ -23,7 +23,7 @@ $remember = $_SESSION['imputsValues']['lg_remember'] ??'';
     <title>Login</title>
   </head>
 
-  <body class="loginbody">
+  <body>
 
     <div class="banner">
       <img src="" alt="" class="logo">

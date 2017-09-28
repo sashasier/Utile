@@ -21,7 +21,7 @@ $username = $_SESSION['inputsValues']['username'] ?? '';
     <title>Registrarse</title>
   </head>
 
-  <body class="registrarse">
+  <body>
 
     <div class="container">
 
