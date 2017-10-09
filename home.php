@@ -92,8 +92,8 @@
 	  <section id="barras">
 	    <div class="row">
 	      <div class="large-12 columns">
-    			<h2 style="text-align: center" id="b">Barras</h2>
-          <h4 style="text-align: right">Ver todo</h4>
+    		<h2 style="text-align: center" id="b">Barras</h2>
+          	<h4 style="text-align: right">Ver todo</h4>
 	        <div class="owl-carousel owl-theme">
 	          <div class="item">
 	            <img src="imagenes/barra/barra1.jpg" alt="Barra1" width="200" height="240">
