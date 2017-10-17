@@ -92,7 +92,7 @@ $db = null;
 
 function guardarImagen($inputName, $imageName, $path)
 {
- ($_FILES[$inputName]['error'] == UPLOAD_ERR_OK) {
+	if ($_FILES[$inputName]['error'] == UPLOAD_ERR_OK) {
 		$ext = pathinfo($_FILES[$inputName]['name'], PATHINFO_EXTENSION);
 		move_uploaded_file(
 			$_FILES[$inputName]['tmp_name'],
@@ -103,3 +103,7 @@ function guardarImagen($inputName, $imageName, $path)
 }
 
 header('Location: ../exito.php');
+$errores = [];
+unset($_SESSION['errores']);
+unset($_SESSION['inputsValues']);
+header('Location: ../home.php');
