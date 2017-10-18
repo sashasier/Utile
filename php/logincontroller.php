@@ -24,10 +24,6 @@ catch( PDOException $Exception ) {
 $errores = [];
 unset($_SESSION['inputsValues']);
 
-if (isset($_COOKIE["recordar_password"])) {
-	exit;
-}
-
 if ($_POST) {
 	$_SESSION['inputsValues'] = $_POST;
 
