@@ -51,31 +51,24 @@
     			<a class="not-login"><?php echo $wellcome ?></a>
 <!--    			<a class="not-login">Usted no se ha identificado</a>	-->
     		</div>
+
+        <div class="form-banner">
+          <form class="col-md-8" action="index.html" method="post">
+            <div class="form-group col-md-3">
+              <input type="text" class="form-control" id="direccion" placeholder="Donde es?" value="" required>
+            </div>
+          <form class="col-md-8" action="index.html" method="post">
+            <div class="form-group col-md-3">
+              <input type="text" class="form-control" id="horario" placeholder="A que hora es?" value="" required>
+            </div>
+          <form class="col-md-8" action="index.html" method="post">
+            <div class="form-group col-md-3">
+                <input type="text" class="form-control" id="personas" placeholder="Cuantos son?" value="" required>
+            </div>
+          <button class="button" type="button" name="enviar">enviar</button>
+          <br>
+        </div>
       </div>
-
-      <div class="contenidocentro">
-        <h2>Ingrese los datos para reservar su lugar</h2>
-        <form class="col-md-12" action="index.html" method="post">
-          <div class="form-group col-md-4">
-            <label for="nombre">Direccion</label>
-            <input type="text" class="form-control" id="direccion" placeholder="ingrese la direccion" value="" required>
-          </div>
-        <form class="col-md-12" action="index.html" method="post">
-          <div class="form-group col-md-4">
-            <label for="nombre">Horario</label>
-            <input type="text" class="form-control" id="horario" placeholder="ingrese el horario del evento" value="" required>
-          </div>
-        <form class="col-md-12" action="index.html" method="post">
-          <div class="form-group col-md-4">
-              <label for="nombre">Cantidad personas</label>
-              <input type="text" class="form-control" id="personas" placeholder="ingrese la cantidad de personas" value="" required>
-          </div>
-        <button type="button" name="enviar">enviar</button>
-        <br>
-      </div>
-
-
-	  </div>
 
 	  <section id="barras">
 	    <div class="row">
@@ -275,6 +268,7 @@
           </div>
           <p class="txt_footer">&copy; UTILE 2017 - Todos los derechos reservados</p>
         </footer>
+  </div>
 	<script>$(document).ready(function(){$("#myCarousel").carousel("pause");});</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
