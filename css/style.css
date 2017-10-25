@@ -6,7 +6,7 @@ body{
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #4DA193;
+  background-color: #F7F7F7;
   font-family: verdana;
   font-style: serif;
   text-align: left;
@@ -16,7 +16,7 @@ ul {
   padding: 0;
 }
 li a {
-  color: white;
+  color: black;
 }
 .contenidocentro {
   width: 100%;
@@ -25,6 +25,20 @@ li a {
 }
 a {
     color: #fff;
+}
+.container{
+  width: 100%;
+}
+
+.footer{
+   background-color: midnightblue;
+   text-align: center;
+   color: white;
+   width: 100%;
+   margin: auto;
+   margin-top: 20px;
+   position: relative;
+   bottom: -23vh"
 }
 /*------------Responsive Resolucion Smartphone-----------*/
 }
@@ -39,12 +53,12 @@ a {
 
 /*---------------------BANNER - MENU---------------------*/
 .banner {
-  position:relative;
-  background-color: midnightblue;
-  width: 900px;
-  height: 120px;
+  width: 100% !important;
+  vertical-align: middle !important;
+  background-color: orange;
+  height: 100px;
   text-align: center;
-  margin: auto;
+
 }
 .banner ul {
   position:relative;
@@ -55,10 +69,6 @@ a {
   padding: 1vh;
 }
 
-.banner li {
-  float: left;
-  position: relative;
-}
 
 .barra{
   text-align: right;
@@ -95,7 +105,7 @@ a {
 }
 .panel-primary>.panel-heading {
 
-  background:#009edf;
+  background: orange ;
 }
 /*---------------------ESPECIALIDADES---------------------*/
 .especialidades {
@@ -105,15 +115,14 @@ a {
   min-height: 100vh;
 }
 .letras{
-  color: white;
+  color: black;
 }
 h4 {
   color: white;
 }
 .not-login {
-  float:right;
+
   color: yellow;
-  padding-right: 5px;
 }
 
 /*----------------------REGISTRARSE----------------------*/
@@ -181,7 +190,7 @@ input::-webkit-input-placeholder {
 }
 >>>>>>> a547d328e68c50b792cd6f8786173643678cfad1
 .main-login{
- 	background-color: #fff;
+ 	background-color: orange;
     /* shadows and rounded borders */
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;

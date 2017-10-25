@@ -5,14 +5,14 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style01.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Stylesheets -->
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/docs.theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style01.css">
 
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -26,11 +26,11 @@
 
   </head>
 
-  <body style="background-color: #4DA193">
+  <body >
   	<div class="container">
       <div class="banner">
         <div>
-          <img src="" alt="" class="logo">
+
           <ul class="nav nav-pills">
             <li class="nav-item">
               <a class="nav-link active" href="home.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
@@ -74,19 +74,7 @@
         <br>
       </div>
 
-      <div class="col-md-4">
-        <ul id="posicionarse">
-  		    <li><a class="posicionarse">Posicionarse en categoria de producto deseado</a>
-  		      <ul class="sub1">
-  			      <li><a href="#b">Barras de bebida</a></li>
-  			      <li><a href="#c">Catering</a></li>
-  	          	  <li><a href="#d">Djs</a></li>
-  			  </ul>
-  		    </li>
-  		  </ul>
-  		  <br>
-        <br>
-  	  </div>
+
 	  </div>
 
 	  <section id="barras">
@@ -279,7 +267,7 @@
 
 
         <footer class="footer" style="background-color: midnightblue; text-align: center; color: white; width: 900px;  margin: auto;margin-top: 20px; position: relative; bottom: -23vh">
-          <div class="social">
+          <div class="social col-12" >
             <a href="https://www.facebook.com/utile" >
               <img src="imagenes/footer/facebook.png" class="icon_footer" style="height: 100px" alt=""></a>
             <a href="https://www.twitter.com/utile" >
