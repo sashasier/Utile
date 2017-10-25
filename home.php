@@ -65,7 +65,7 @@
             <div class="form-group col-md-3">
                 <input type="text" class="form-control" id="personas" placeholder="Cuantos son?" value="" required>
             </div>
-          <button class="button" type="button" name="enviar">enviar</button>
+            <button class="button" type="button" name="enviar">enviar</button>
           <br>
         </div>
       </div>
