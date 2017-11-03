@@ -37,20 +37,20 @@
       <div class="form-banner">
         <form class="col-md-8" action="index.html" method="post">
           <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="direccion" placeholder="Donde es?" value="" required>
+            <input type="text" class="form-control" id="direccion" placeholder="Donde es?" value="">
           </div>
         <form class="col-md-8" action="index.html" method="post">
           <div class="form-group col-md-3">
-            <input type="text" class="form-control" id="horario" placeholder="A que hora es?" value="" required>
+            <input type="text" class="form-control" id="horario" placeholder="A que hora es?" value="">
           </div>
         <form class="col-md-8" action="index.html" method="post">
           <div class="form-group col-md-3">
-              <input type="text" class="form-control" id="personas" placeholder="Cuantos son?" value="" required>
+              <input type="text" class="form-control" id="personas" placeholder="Cuantos son?" value="">
           </div>
         <button class="button" type="button" name="enviar">enviar</button>
         <br>
       </div>
-      
+
     </div>
 
 
