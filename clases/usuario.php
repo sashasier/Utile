@@ -3,21 +3,37 @@
  *
  */
 class Usuario {
-	private $id
-	private $nombre
-	private $email
-	private $username
-	private $password
+	private $id;
+	private $nombre;
+	private $email;
+	private $username;
+	private $password;
+	private $db;
 
+	public function __construct($nombre, $email, $password, $username)
+	{
+		$this-> nombre = $nombre;
+		$this-> email = $email;
+		$this-> username = $username;
+		$this-> password = $this->setPassword($password);
 
-	public function __construct($datos) {
-	if (isset($datos["id"])) {
-		$this->id = $datos["id"];
-		$this->password = $datos["password"];
+		$this->db = new PDO('mysql:host=localhost;dbname=utile', 'roor','root');
+		$this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	}
-	else {
-		$this->password = password_hash($datos["password"], PASSWORD_DEFAULT);
+
+	public function setPassword($value) {
+		$this->password = password_hash($value, PASSWORD_DEFAULT);
 	}
+public function save()
+{
+	$sql = 'INSERT INTO usuarios (nombre,email,username,password) VALUES (:nombre,:email,:username,:password)';
+	$stmt = $this->db->prepare($sql);
+	$stmt->bindValue(' :nombre', $this->nombre, PDO::PARAMSTR);
+	$stmt->bindValue(' :email', $this->email, PDO::PARAMSTR);
+	$stmt->bindValue(' :username', $this->username, PDO::PARAMSTR);
+	$stmt->bindValue(' :password', $this->password, PDO::PARAMSTR);
+	$stmt->execute();
+}
 
 	$this->email = $datos["email"];
 	$this->username = $datos["username"];
