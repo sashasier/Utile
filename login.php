@@ -2,10 +2,26 @@
 session_start();
 
 require_once 'php/logincontroller.php';
+include_once("soporte.php");
 
-$username = $_SESSION['inputsValues']['username'] ?? '';
-$password = $_SESSION['inputsValues']['password'] ?? '';
-$remember = $_SESSION['imputsValues']['lg_remember'] ??'';
+  if ($auth->estaLogueado()) {
+		header("Location:inicio.php");exit;
+	}
+
+	$errores = [];
+	if ($_POST) {
+		$errores = $validador->validarLogin($_POST, $db);
+		if (count($errores) == 0) {
+			// LOGUEAR
+      $auth->loguear($_POST["email"]);
+			if (isset($_POST["remember"])) {
+				//Quiere que lo recuerde
+				$auth->recordame($_POST["email"]);
+			}
+      header("Location:inicio.php");
+		}
+	}
+	include("header.php");
 ?>
 
 
