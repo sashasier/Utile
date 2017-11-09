@@ -5,8 +5,6 @@ class Usuario {
   private $id;
   private $email;
   private $password;
-  private $edad;
-  private $pais;
   private $username;
 
   public function __construct($datos) {
@@ -20,7 +18,6 @@ class Usuario {
 
     $this->email = $datos["email"];
     $this->username = $datos["username"];
-    $this->pais = $datos["pais"];
     //$this->telefono = $datos["telefono"];
   }
 
@@ -57,22 +54,6 @@ class Usuario {
 
   public function getPassword() {
     return $this->password;
-  }
-
-  public function setPais($pais) {
-    $this->pais = $pais;
-  }
-
-  public function getPais() {
-    return $this->pais;
-  }
-
-  public function setEdad($edad) {
-    $this->edad = $edad;
-  }
-
-  public function getEdad() {
-    return $this->edad;
   }
 
   public function setUsername($username) {
