@@ -5,7 +5,7 @@ include 'helpers.php';
 // establecer conexión
 $dsn = 'mysql:host=localhost;dbname=utile_db; charset=utf8mb4;port=3306';
 $db_user = 'root';
-$db_pass = '';
+$db_pass = 'root';
 
 $conn = new PDO($dsn, $db_user, $db_pass);
 

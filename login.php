@@ -21,7 +21,6 @@ include_once("soporte.php");
       header("Location:inicio.php");
 		}
 	}
-	include("header.php");
 ?>
 
 

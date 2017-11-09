@@ -1,20 +1,11 @@
 <?php
 
+require_once("usuario.php");
 
-class DB
-{
-  private static $conn
-
-public static function getConn()
-  {
-    if (!self::$conn) {
-      $db = new PDO('mysql:host=localhost;dbname=utile', 'roor','root');
-      $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-      self::$conn = $db;
-    }
-    return self::$conn;
-  }
+abstract class DB {
+    public abstract function guardarUsuario(Usuario $usuario);
+    public abstract function traerTodos();
+    public abstract function traerPorMail($email);
 }
 
-
- ?>
+?>

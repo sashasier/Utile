@@ -3,7 +3,6 @@ require_once("db.php");
 class Auth {
 
   public function __construct() {
-    session_start();
 
   	if (!isset($_SESSION["logueado"]) && isset($_COOKIE["logueado"])) {
   		$_SESSION["logueado"] = $_COOKIE["logueado"];
