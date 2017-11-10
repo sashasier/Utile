@@ -5,8 +5,8 @@
     <title></title>
   </head>
   <body>
-    
-    <footer class="footer" style="background-color: midnightblue; text-align: center; color: white; width: 900px;  margin: auto;margin-top: 20px; position: relative; bottom: -2vh">
+
+    <footer class="footer" style="background-color: black; text-align: center; color: white; height: 19vh; width: 100vw;  margin: auto;margin-top: 20px; position: relative; bottom: -2vh;">
       <div class="social">
         <a href="https://www.facebook.com/utile" >
           <img src="imagenes/footer/facebook.png" class="icon_footer" style="height: 100px" alt=""></a>
