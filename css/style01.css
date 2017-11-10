@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, Sans-serif;
+	font-size: 20px;
+}
+h2 {
+	margin-bottom: 20px;
+	text-align: center;
+	border-bottom: 2px solid orange;
+}
+ul#posicionarse li {
+	float: left;
+	margin-right: 4px;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	list-style-type: none;
+}
+ul#posicion,  li a {
+/*	background-color: lightgrey;	*/
+	height: 45px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+ul#posicionarse .sub1 {
+	list-style-type: none;
+}
+ul#posicionarse li a{
+	background-color: lightgrey;
+	width: 400px;
+	height: 25px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+ul#posicionarse ul.sub1 {
+	display: inline-table;
+	position: absolute;
+	left: 0;
+	display: none;
+}
+ul#posicionarse li:hover .sub1 {
+	width: 160;
+	display: block;
+}
+
+ul .sub1 li:hover a:hover {
+	width: 160;
+	margin-left: 120;
+	background-color: lightgrey;
+	color: #7F007E;
+	text-decoration: none;
+}
