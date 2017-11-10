@@ -15,15 +15,6 @@ class Validador {
 			$errores["username"] = "Tenes que poner más de 3 caracteres en tu nombre de usuario";
 		}
 
-		if ($informacion["edad"] < 18) {
-			$errores["edad"] = "Tenes que tener más de 18 años";
-		}
-
-		if (is_numeric($informacion["telefono"]) == false) {
-			$errores["telefono"] = "El telefono debe ser un numero";
-		}
-
-
 		if ($informacion["email"] == "") {
 			$errores["email"] = "Che, dejaste el mail incompleto";
 		}

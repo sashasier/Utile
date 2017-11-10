@@ -26,9 +26,8 @@ class DBMySQL extends DB {
 
 		$query->bindValue(":email", $usuario->getEmail());
 		$query->bindValue(":password", $usuario->getPassword());
-		$query->bindValue(":edad", $usuario->getEdad());
 		$query->bindValue(":username", $usuario->getUsername());
-		$query->bindValue(":pais", $usuario->getPais());
+
 
 		$id = $this->db->lastInsertId();
 		$usuario->setId($id);

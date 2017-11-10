@@ -1,3 +1,17 @@
+<?php
+		require_once("soporte.php");
+
+		$usuarioLogueado = $auth->usuarioLogueado($db);
+
+		if ($usuarioLogueado == null) {
+			$nombre = "Invitado";
+		} else {
+			$nombre = $usuarioLogueado->getUsername();
+		}
+		$usuarios = $db->traerTodos();
+
+	?>
+
 <!DOCTYPE html>
 <html>
   <head>

@@ -1,12 +1,37 @@
 <?php
-session_start();
+	include_once("soporte.php");
+	require_once("clases/usuario.php");
 
-$nombre = $_SESSION['inputsValues']['nombre'] ?? '';
-$email = $_SESSION['inputsValues']['email'] ?? '';
-$password = $_SESSION['inputsValues']['password'] ?? '';
-$username = $_SESSION['inputsValues']['username'] ?? '';
+	if ($auth->estaLogueado()) {
+		header("Location:inicio.php");exit;
+	}
 
-?>
+	$emailDefault = "";
+	$usernameDefault = "";
+
+	$errores = [];
+	if ($_POST) {
+		$errores = $validador->validarInformacion($_POST, $db);
+
+		if (!isset($errores["email"])) {
+			$emailDefault = $_POST["email"];
+		}
+
+		if (!isset($errores["username"])) {
+			$usernameDefault = $_POST["username"];
+		}
+
+		if (count($errores) == 0) {
+			$usuario = new Usuario($_POST);
+			$mail = $_POST["email"];
+
+			$usuario->guardarImagen($mail);
+			$usuario = $db->guardarUsuario($usuario);
+
+			header("Location:home.php?mail=$mail");exit;
+		}
+	}
+  ?>
 
 <!DOCTYPE html>
 <html>
