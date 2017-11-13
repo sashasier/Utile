@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-require_once 'php/controller/logincontroller.php';
 include_once("soporte.php");
 
   if ($auth->estaLogueado()) {
