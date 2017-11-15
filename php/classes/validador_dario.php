@@ -28,11 +28,13 @@ class Validador {
 			$errores["password"] = "No llenaste la contraseña";
 		}
 
-		if ($informacion["cpassword"] == "") {
-			$errores["cpassword"] = "No llenaste completar contraseña";
+/*    if ($informacion["cpassword"] == "") {
+			$errores["cpassword"] = "No llenaste completar contraseña"; */
+    if ($informacion["confirm"] == "") {
+			$errores["confirm"] = "No llenaste completar contraseña";
 		}
 
-		if ($informacion["password"] != "" && $informacion["cpassword"] != "" && $informacion["password"] != $informacion["cpassword"]) {
+		if ($informacion["password"] != "" && $informacion["confirm"] != "" && $informacion["password"] != $informacion["confirm"]) {
 			$errores["password"] = "Las contraseñas no coinciden";
 		}
 
@@ -49,7 +51,6 @@ class Validador {
 			}
     }
 
-
 		return $errores;
   }
 
@@ -59,7 +60,6 @@ class Validador {
 		foreach ($informacion as $clave => $valor) {
 			$informacion[$clave] = trim($valor);
 		}
-
 
 		if ($informacion["email"] == "") {
 			$errores["email"] = "Che, dejaste el mail incompleto";
@@ -81,9 +81,6 @@ class Validador {
 				$errores["password"] = "La contraseña no verifica";
 			}
 		}
-
-
-
 
 		return $errores;
   }

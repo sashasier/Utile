@@ -1,9 +1,10 @@
 <?php
+session_start();
 
-require_once("clases/auth.php");
-require_once("clases/validador.php");
-require_once("clases/DBMySQL.php");
-require_once("clases/DBJSON.php");
+require_once("php/classes/auth.php");
+require_once("php/classes/validador.php");
+require_once("php/classes/DBMySQL.php");
+require_once("php/classes/DBJSON.php");
 
 $auth = new Auth();
 
