@@ -89,7 +89,7 @@ a {
 .banner {
   width: 100% !important;
   vertical-align: middle !important;
-  background-color: orange;
+  background-color: #F37032;
   overflow: hidden;
 }
 .banner ul {
@@ -401,8 +401,8 @@ span.input-group-addon i {
   background-color: black;
   text-align: "center";
   color: white;
-  height: 19vh;
-  width: 100vw;
+  height: 70px;
+  width: 100%;
   margin: auto;
   margin-top: 20px;
   position: relative;
