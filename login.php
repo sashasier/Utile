@@ -1,6 +1,9 @@
 <?php
 
+//<<<<<<< HEAD
 /*require_once 'php/controller/logincontroller.php';*/
+//=======
+//>>>>>>> e83864e5e4afcd705da75902baf6b83fa3d5bca4
 include_once("soporte.php");
 
   if ($auth->estaLogueado()) {
@@ -33,7 +36,11 @@ include_once("soporte.php");
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Login</title>
+
+    <div class="mano">
+          <title>Login</title>
+    </div>
+
   </head>
 
   <body>

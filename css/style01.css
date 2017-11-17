@@ -51,3 +51,9 @@ ul .sub1 li:hover a:hover {
 	color: #7F007E;
 	text-decoration: none;
 }
+
+.txt_footer {
+  color: white;
+  text-align: center;
+  font-size: 11px;
+}
