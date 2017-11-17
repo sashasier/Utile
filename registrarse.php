@@ -8,9 +8,9 @@
 
 /*	$emailDefault = "";
 	$usernameDefault = ""; */
-	$email = "";
-	$username = "";
-	$nombre = "";
+	$email= "";
+	$username= "";
+	$nombre= "";
 
 	$_SESSION = ['errores'];
 	unset($_SESSION['errores']);
@@ -30,7 +30,7 @@
 			$usuario = new Usuario($_POST);
 			$mail = $_POST["email"];
 			$usuario->guardarImagen($mail);
-	
+
 			$usuario = $db->guardarUsuario($usuario);
 
 			header("Location:home.php?mail=$mail");exit;
