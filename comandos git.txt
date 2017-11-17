@@ -1,0 +1,15 @@
+Parar subir:
+
+git add --all
+git commit -m 'mensaje para los companeros"
+git push
+
+Para bajar:
+git pull
+
+
+Para ver si yo tengo cambios en mi repo local:
+git status
+
+Cuando hay conflicto sacar las macas de git de los archivos en conflicto y despues:
+git add --all, git commit -m "merge", git push 
