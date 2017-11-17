@@ -1,3 +1,5 @@
+
+<link rel="stylesheet" href="css/style.css">
 <div class="banner">
   <div class="logoo">
     <a class="nav-link active" href="home.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>

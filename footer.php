@@ -1,4 +1,5 @@
 
+<link rel="stylesheet" href="css/style.css">
     <footer class="footer">
       <div class="social">
         <a href="https://www.facebook.com/utile" >
