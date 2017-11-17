@@ -32,17 +32,17 @@ $tablename = $_GET["table"];
 
 // sql to create table
 {$sql = "CREATE TABLE $tablename (
-    id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+    id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
     nombre VARCHAR(255) NOT NULL,
     apellido VARCHAR(255) NULL,
     email VARCHAR(255),
     password VARCHAR(255) NOT NULL,
     avarar_id INT(20),
-    fecha_nacimiento date NULL,
-    estado_civil INT(1) NOT NULL DEFAULT 0,
+    fecha_nacimiento DateTime NULL,
+    estado_civil INT(10) UNSIGNED NULL DEFAULT 0,
     created_at TIMESTAMP,
-    updated_at TIMESTAMP
+    updated_at TIMESTAMP,
     )";
 
 // use exec() because no results are returned
