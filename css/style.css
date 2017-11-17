@@ -64,16 +64,6 @@ a {
  padding-right: 0px;
 }
 
-.footer{
-   background-color: midnightblue;
-   text-align: center;
-   color: white;
-   width: 100%;
-   margin: auto;
-   margin-top: 20px;
-   position: relative;
-   bottom: -23vh"
-}
 /*------------Responsive Resolucion Smartphone-----------*/
 }
 @media(max-width: 320px){
@@ -98,10 +88,10 @@ a {
 }
 .not-login {
   float: right;
-  color: yellow;
   clear: right;
+  color: white;
   margin-bottom: 3px;
-  margin-right: 8px;
+  margin-right: 14px;
 }
 .barra{
   text-align: right;
@@ -397,16 +387,16 @@ span.input-group-addon i {
 
 /*------------------------FOOTER------------------------*/
 
+
 .footer {
-  background-color: black;
-  text-align: "center";
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
   color: white;
-  height: 70px;
+  height: 100px;
   width: 100%;
   margin: auto;
   margin-top: 20px;
-  position: relative;
-  bottom: -2vh;
+  bottom: -5px;
 }
 .icon_footer {
   height: 80px;
