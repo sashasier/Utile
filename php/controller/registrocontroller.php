@@ -1,9 +1,11 @@
 <?php
-if (!isset($CONFIG)) include '../config.php';
-include $CONFIG['include'] . 'php/validators/registro.validator.php';
-include $CONFIG['include'] . 'php/classes/Usuario.php';
+if (!isset($CONFIG)) include '../../.git/config';
+//include $CONFIG['include'] . 'php/validators/registro.validator.php';
+include $CONFIG['include'] . '../classes/validador.php';
+include $CONFIG['include'] . '../classes/Usuario.php';
 
-$errors = validarRegistro();
+//$errors = validarRegistro();
+$errors = validarInformacion();
 
 //si hay errores conrto la ejecucion y los devuelvo
 if (count($errors)) {

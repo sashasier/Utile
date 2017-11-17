@@ -64,7 +64,6 @@ class Usuario {
     return $this->username;
   }
 
-
 }
 
 ?>

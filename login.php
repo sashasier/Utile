@@ -1,6 +1,9 @@
 <?php
-session_start();
 
+//<<<<<<< HEAD
+/*require_once 'php/controller/logincontroller.php';*/
+//=======
+//>>>>>>> e83864e5e4afcd705da75902baf6b83fa3d5bca4
 include_once("soporte.php");
 
   if ($auth->estaLogueado()) {
@@ -22,7 +25,6 @@ include_once("soporte.php");
 	}
 ?>
 
-
 <!DOCTYPE html>
 <html>
 
@@ -43,11 +45,9 @@ include_once("soporte.php");
 
   <body>
 
+    <?php include 'header.php'; ?>
 
-        <?php include 'header.php'; ?>
-
-
-   <div class="container">
+    <div class="container">
          <div class="row main">
            <div class="main-login main-center">
                  <h1 class="tituloreg">Login</h1>
@@ -86,8 +86,6 @@ include_once("soporte.php");
                  </div>
                </div>
 
-
-
                <div class="form-group ">
                  <button type="submit" name="button" class="btn btn-primary btn-lg btn-block login-button">Login</button>
                </div>
@@ -101,9 +99,7 @@ include_once("soporte.php");
          </div>
        </div>
 
-
     <?php include "footer.php"; ?>
-
 
     <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
