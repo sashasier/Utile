@@ -22,6 +22,8 @@
 
 
       <div class="contenidocentropreguntas" >
+
+
        <div class="panel-group" id="accordion">
            <div class="panel panel-primary">
                  <div class="panel-heading">
@@ -39,24 +41,6 @@
                   </div>
             </div>
         </div>
-
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-primary">
-                  <div class="panel-heading">
-                     <h4 class="panel-title">
-                        <a data-toggle="collapse" href="#section2">
-                          ¿Cual es capacidad total del salón?
-                        </a>
-                      </h4>
-                  </div>
-
-                  <div class="panel-collapse collapse " id="section2">
-                      <div class="panel-body">
-                        Las capacidades del salón son: Sin carpa 300 personas, con carpa 600 personas
-                      </div>
-                   </div>
-             </div>
-         </div>
 
          <div class="panel-group" id="accordion">
              <div class="panel panel-primary">
